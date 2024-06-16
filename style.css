@@ -1,0 +1,30 @@
+body {
+    background-color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    overflow: hidden;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar li {
+    float: left;
+}
+.navbar li a {
+    display: block;
+    color: #4d4d4d;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    color: #fd5956;
+}
+
+.logo {
+    width: 72px;
+}
