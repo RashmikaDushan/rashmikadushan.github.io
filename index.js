@@ -4,7 +4,7 @@ text.scroll(200, 0);
 const cursorInner = document.getElementById("cursor-inner");
 const cursorOuter = document.getElementById("cursor-outer");
 
-window.addEventListener("mousemove",function (e){
+window.addEventListener("mousemove", function (e) {
     const posX = e.clientX;
     const posY = e.clientY;
 
@@ -15,14 +15,14 @@ window.addEventListener("mousemove",function (e){
     // cursorOuter.style.top = `${posY}px`;
 
     cursorOuter.animate({
-        left:`${posX}px`,
-        top:`${posY}px`
-    }, { duration: 300, fill:"forwards" });
+        left: `${posX}px`,
+        top: `${posY}px`
+    }, { duration: 300, fill: "forwards" });
 });
 
 var cursorScale = document.querySelectorAll('.cursor-hover');
 
-cursorScale.forEach(link =>{
+cursorScale.forEach(link => {
     link.addEventListener('mouseleave', () => {
         cursorInner.classList.remove('grow-cursor');
         cursorOuter.classList.remove('vanish-cursor');
