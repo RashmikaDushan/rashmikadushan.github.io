@@ -19,3 +19,16 @@ window.addEventListener("mousemove",function (e){
         top:`${posY}px`
     }, { duration: 300, fill:"forwards" });
 });
+
+var cursorScale = document.querySelectorAll('.cursor-hover');
+
+cursorScale.forEach(link =>{
+    link.addEventListener('mouseleave', () => {
+        cursorInner.classList.remove('grow-cursor');
+        cursorOuter.classList.remove('vanish-cursor');
+    });
+    link.addEventListener('mousemove', () => {
+        cursorInner.classList.add('grow-cursor');
+        cursorOuter.classList.add('vanish-cursor');
+    });
+})
