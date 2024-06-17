@@ -2,12 +2,36 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: #ffffff;
+    background-color: none;
 }
 
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
+    cursor: none;
+}
+
+.cursor-inner {
+    width: 5px;
+    height: 5px;
+    background-color: #fd5956;
+}
+
+.cursor-outer {
+    width: 30px;
+    height: 30px;
+    border: 2px solid hsla(1, 98%, 66%, 0.5);
+}
+
+.cursor-inner,
+.cursor-outer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
 }
 
 .section1 {
@@ -81,51 +105,54 @@ button:hover {
     text-overflow: clip clip;
     overflow: hidden;
     white-space: nowrap;
+    z-index: -1;
+    position: absolute;
 }
 
-.hola{
+.hola {
     font-weight: 600;
     color: #252525;
 }
 
-.rashmika{
+.rashmika {
     color: #fd5956;
-    font-size:1.3rem;
+    font-size: 1.3rem;
     padding-top: 2rem;
 }
 
-.texts{
+.texts {
     padding-left: 12rem;
     padding-top: 3rem;
 }
 
-.texts h1{
+.texts h1 {
     line-height: 100%;
     font-size: 5rem;
 }
 
-.maintext1{
+.maintext1 {
     padding-top: 0.7rem;
-    color:#252525;
+    color: #252525;
 }
 
-.maintext2{
+.maintext2 {
     padding-left: 3rem;
     color: #fd5956;
 }
-.maintext3{
-    color:#252525;
+
+.maintext3 {
+    color: #252525;
 }
 
-.sameline{
+.sameline {
     display: flex;
 }
 
-.maintext4{
+.maintext4 {
     color: #fd5956;
 }
 
-.description{
+.description {
     padding-top: 4vh;
     font-weight: 400;
     font-size: 1rem;
@@ -133,18 +160,19 @@ button:hover {
     width: 30vw;
 }
 
-.icons{
+.icons {
     padding-top: 2rem;
 }
 
-.fa-brands{
+.fa-brands {
     padding-right: 2rem;
 }
 
-.button2{
-    background-color:#fd5956;
+.button2 {
+    background-color: #fd5956;
     margin-bottom: 4rem;
     margin-top: 2rem;
+    
 }
 
 .button2:hover {
