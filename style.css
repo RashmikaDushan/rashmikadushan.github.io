@@ -32,7 +32,7 @@ body {
     left: 0;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    z-index: 1;
+    z-index: 2;
     pointer-events: none;
 }
 
@@ -161,13 +161,13 @@ button:hover {
 .description {
     padding-top: 4vh;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #4d4d4d;
     width: 30vw;
 }
 
 .icons {
-    padding-top: 2rem;
+    padding-top: 1.5rem;
 }
 
 .fa-brands {
@@ -178,34 +178,52 @@ button:hover {
     background-color: #fd5956;
     margin-bottom: 4rem;
     margin-top: 2rem;
-    
+
 }
 
 .button2:hover {
     box-shadow: 0px 0px 30px 15px hsla(1, 98%, 66%, 0.2);
 }
 
-a{
+a {
     cursor: none;
 }
 
-i{
+i {
     transition: all 0.3s ease 0s;
 }
 
-i:hover{
+i:hover {
     color: #fd5956;
 }
 
-.grow-cursor{
+.grow-cursor {
     width: 30px;
     height: 30px;
     animation-name: grow-cursor-anim;
     animation-duration: 0.5s;
-    mix-blend-mode:difference;
+    mix-blend-mode: difference;
 }
 
-.vanish-cursor{
+.vanish-cursor {
     border: 2px solid hsla(1, 98%, 66%, 0);
 }
 
+.content {
+    display: flex;
+}
+
+.photo{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    height: 65vh;
+    width: auto;
+}
+
+.line {
+    height: 40vh;
+    position: absolute;
+    top: 55vh;
+    left: 17.5vw;
+    z-index: -1;
+}

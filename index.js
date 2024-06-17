@@ -17,7 +17,7 @@ window.addEventListener("mousemove", function (e) {
     cursorOuter.animate({
         left: `${posX}px`,
         top: `${posY}px`
-    }, { duration: 300, fill: "forwards" });
+    }, { duration: 150, fill: "forwards" });
 });
 
 var cursorScale = document.querySelectorAll('.cursor-hover');
