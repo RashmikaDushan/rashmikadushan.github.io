@@ -1,30 +1,74 @@
-body {
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     background-color: #ffffff;
-    font-family: "Poppins", sans-serif;
 }
 
-.navbar {
-    overflow: hidden;
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
 }
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.navbar li {
-    float: left;
-}
-.navbar li a {
-    display: block;
+
+li,
+a,
+button {
     color: #4d4d4d;
-    text-align: center;
-    padding: 14px 20px;
     text-decoration: none;
 }
-.navbar li a:hover {
-    color: #fd5956;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
 }
+
 
 .logo {
     width: 72px;
+    cursor: pointer;
+}
+
+.navtext {
+    list-style: none;
+}
+
+.navtext li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: .9rem;
+}
+
+.navtext a {
+    transition: all 0.3s ease 0s;
+}
+
+.navtext a:hover {
+    color: #fd5956;
+}
+
+button {
+    height: 2.5rem;
+    width: 9rem;
+    padding: 9px 25px;
+    background-color: #252525;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #fd5956;
+
+}
+
+.backgroundtext {
+    font-family: "Fasthand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(253, 89, 86, 0.07);
+    font-size: 80vh;
 }
