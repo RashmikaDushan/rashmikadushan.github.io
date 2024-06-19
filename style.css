@@ -58,7 +58,6 @@ header {
     align-items: center;
     padding: 2.5rem 5% .5rem 5%;
     transition: all 0.3s ease 0s;
-    background-color: #ffffff;
 }
 
 
@@ -264,4 +263,5 @@ i:hover {
     padding: 1rem 5% 1rem 5%;
     transition: all 0.3s ease 0s;
     box-shadow: 0px 0px 30px 15px hsla(0, 0%, 30%, 0.10);
+    background-color: hsla(0, 0%, 100%, 0.5);
 }

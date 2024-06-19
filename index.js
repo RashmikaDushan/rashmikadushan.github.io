@@ -99,8 +99,8 @@ navlinks.forEach(link => {
         // window.scrollTo(0, land);
         // undeline.style.left = `${link.offsetLeft}px`;
 
-        undeline.animate({
-            left: `${link.offsetLeft}px`,
-        }, { duration: 300, fill: "forwards", easing: "ease-in-out"}); // todo
+        // undeline.animate({
+        //     left: `${link.offsetLeft}px`,
+        // }, { duration: 300, fill: "forwards", easing: "ease-in-out"}); // todo
     }
 })  
