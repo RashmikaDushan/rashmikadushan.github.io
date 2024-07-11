@@ -56,7 +56,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.5rem 5% .5rem 5%;
+    padding: 2.5vh 5% .5vh 5%;
     transition: all 0.3s ease 0s;
 }
 
@@ -119,26 +119,26 @@ button:hover {
 }
 
 .hola {
-    padding-top: 7.5rem;
+    padding-top: 8vw;
     font-weight: 600;
     color: #252525;
-    font-size: 1.25vw;
+    font-size: 1.2vw;
 }
 
 .rashmika {
     color: #fd5956;
-    font-size: 1.55vw;
+    font-size: 1.5vw;
     padding-top: 1vw;
 }
 
 .texts {
-    padding-left: 12rem;
+    padding-left: 14vw;
     padding-top: 1rem;
 }
 
 .texts h1 {
     line-height: 100%;
-    font-size: 5.5vw;
+    font-size: 5vw;
 }
 
 .maintext1 {
@@ -164,11 +164,11 @@ button:hover {
 }
 
 .description {
-    padding-top: 4vh;
+    padding-top: 2vw;
     font-weight: 400;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: #4d4d4d;
-    width: 30vw;
+    width: 25vw;
 }
 
 .icons {
@@ -219,7 +219,7 @@ i:hover {
 }
 
 .photo{
-    padding-left: 15vw;
+    padding-left: 17.5vw;
     padding-right: 15vw;
     height: 32vw;
     width: auto;
@@ -227,10 +227,10 @@ i:hover {
 }
 
 .line {
-    width: 35rem;
+    width: 37.5vw;
     position: absolute;
-    top: 29.5rem;
-    left: 17.5vw;
+    top: 29rem;
+    left: 19vw;
     z-index: -1;
 }
 
@@ -306,6 +306,8 @@ i:hover {
     font-weight: 600;
     padding-left: auto;
     padding-right: auto;
+    padding-top: 15vh;
+    justify-content: center;
 }
 
 .redtext{
