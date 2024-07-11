@@ -122,12 +122,13 @@ button:hover {
     padding-top: 7.5rem;
     font-weight: 600;
     color: #252525;
+    font-size: 1.25vw;
 }
 
 .rashmika {
     color: #fd5956;
-    font-size: 1.3rem;
-    padding-top: 1rem;
+    font-size: 1.55vw;
+    padding-top: 1vw;
 }
 
 .texts {
@@ -137,7 +138,7 @@ button:hover {
 
 .texts h1 {
     line-height: 100%;
-    font-size: 5rem;
+    font-size: 5.5vw;
 }
 
 .maintext1 {
@@ -220,15 +221,15 @@ i:hover {
 .photo{
     padding-left: 15vw;
     padding-right: 15vw;
-    height: 65vh;
+    height: 32vw;
     width: auto;
-    margin-top: 8rem;
+    margin-top: 10rem;
 }
 
 .line {
-    height: 40vh;
+    width: 35rem;
     position: absolute;
-    top: 55vh;
+    top: 29.5rem;
     left: 17.5vw;
     z-index: -1;
 }
