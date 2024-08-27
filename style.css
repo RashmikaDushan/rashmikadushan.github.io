@@ -737,3 +737,47 @@ h6{
         padding-top: 1vh;
     }
   }
+
+  .techicons{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+  }
+
+  .techlayer{
+    display: flex;
+    align-items: center;
+  }
+
+  .technitem{
+    display: flex;
+    flex-direction: column;
+    width: 12.5rem;
+    height: 10rem;
+    align-items: center;
+  }
+
+  .icon{
+    width: 4rem;
+    height: auto;
+    color: #252525;
+    transition: all 0.3s ease 0s;
+}
+
+.icon:hover{
+    color: #fd5956;
+}
+
+.icontext{
+    margin-top: 0.75rem;
+    font-size: 1rem;
+    color: #4d4d4d;
+    text-align: center;
+}
+
+.icontext:hover{
+    color: #fd5956;
+} 
