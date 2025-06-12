@@ -110,13 +110,3 @@ navlinks.forEach(link => {
         // }, { duration: 300, fill: "forwards", easing: "ease-in-out"}); // todo
     }
 })  
-
-
-sendMessage.onclick = () => {
-    if(nametext.value == '' || email.value == '' || message.value == ''){
-        alert('Please fill all the fields');
-        return}
-    else{
-        alert('Message Sent!');
-    }
-}
